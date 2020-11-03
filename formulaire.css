@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(255, 222, 180);
+}
+
+/*Forme de la barre nav*/
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid;
+    color: grey;
+    position: sticky;
+    top: 2px;
+}
+  
+nav ul{
+    list-style-type: none;
+}
+
+/*Position des éléments nav*/
+nav ul li{
+    float: left;
+    width: 16%;
+    text-align: center;
+    position: relative;
+}
+  
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    padding: 10px 0px;
+}
+
+/*Couleur des éléments nav*/
+nav a:hover{
+    border-bottom: 1px;
+    background-color: rgb(255, 222, 180);
+    border: 1px solid grey;
+}
+
+.obligatoire {
+    color: red;
+}
+
+h1, p {
+    text-align: center;
+}
+
+form {
+    /* Pour centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 400px;
+    background-color: white;
+
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 3px solid grey;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+  
+input:focus, textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+}
+  
+.button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px; /* même taille que les étiquettes */
+}
+
+textarea{
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 10em;
+    vertical-align: auto;
+    resize: vertical;
+}
+
+.bouton{
+    width: 100px;
+    margin-left: 74%;
+}

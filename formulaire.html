@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="formulaire.css">
+
+        <nav>
+            <ul>
+                <li><a href="accueil.html">Retour à l'accueil</a></li>
+            </ul>
+        </nav>
+    </head>
+
+    <body>
+        <h1>Pour me contacter, remplissez le formulaire ci-dessous</h1>
+
+        <p>Les champs obligatoires sont suivis par un <abbr title="required" class="obligatoire">*</abbr></p>
+
+            <div id="Formulaire">
+                <form method="post" action="">
+                    <div id="Sexe">
+                        <fieldset>
+                            <legend>Sexe</legend>
+                                    <input type="radio" id="homme" name="sexe" value="Mr. ">
+                                    <label for="homme">Homme</label>
+                                    <input type="radio" id="femme" name="sexe" value="Mme. ">
+                                    <label for="femme">Femme</label>
+                        </fieldset>
+                    </div>
+
+                    <div id="Others">
+                        <label for="name">Nom : <strong><abbr title="required" class="obligatoire">*</abbr></strong></label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+
+                    <div id="Others">
+                        <label for="name">Prénom : <strong><abbr title="required" class="obligatoire">*</abbr></strong></label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+
+                    <div id="Others">
+                        <label for="name">E-mail : <strong><abbr title="required" class="obligatoire">*</abbr></strong></label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+
+                    <div id="Others">
+                        <label for="name">Sujet : <strong><abbr title="required" class="obligatoire">*</abbr></strong></label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+
+                    <div id="Others">
+                        <label for="name">Message : <strong><abbr title="required" class="obligatoire">*</abbr></strong></label>
+                        <textarea rows=10 cols=50></textarea>
+                    </div>
+
+                    <div id="Others">
+                        <input type="button" value="Envoyer" class="bouton">
+                    </div>
+                </form>
+            </div>
+    </body>
+</html>
