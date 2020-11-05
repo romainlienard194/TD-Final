@@ -23,7 +23,7 @@ nav ul {
 nav ul li {
     float: left;
     width: 16%;
-    text-align: center;
+    text-align: center; 
     position: relative;
 }
 
