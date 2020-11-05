@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 222, 180);
+    background-color: rgb(255, 232, 202);
 }
 
 /*Forme de la barre nav*/
@@ -42,7 +42,7 @@ nav a{
 /*Couleur des éléments nav*/
 nav a:hover{
     border-bottom: 1px;
-    background-color: rgb(255, 222, 180);
+    background-color: rgb(255, 232, 202);
     border: 1px solid grey;
 }
 
